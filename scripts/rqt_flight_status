@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+
+import sys
+
+from rqt_gui.main import Main
+from mimree_flight_rqt.flight_status import FlightStatusPlugin
+
+plugin = 'mimree_flight_rqt'
+main = Main(filename=plugin)
+sys.exit(main.main(standalone=False, argv=sys.argv))

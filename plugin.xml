@@ -1,0 +1,12 @@
+<library path="src">
+    <class name="MIMRee Control Flight" type="mimree_flight_rqt.flight_status.FlightStatusPlugin" base_class_type="rqt_gui_py::Plugin">
+        <description>
+            MIMRee Flight Status Plugin for UAV
+        </description>
+        <qtgui>
+            <label>MIMRee Flight Status Plugin</label>
+            <icon type="theme">system-help</icon>
+            <statustip>Flight Status for MAVROS system</statustip>
+        </qtgui>
+    </class>
+</library>
